@@ -5,7 +5,7 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1-Introduction", "1-Introduction\1-Introduction.csproj", "{176FDA25-0032-4E48-857C-85F9018F683E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anchor", "Anchor\Anchor.csproj", "{3B3FD9D6-E15B-4781-A928-A932AAB3EE0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2-Anchor", "Anchor\2-Anchor.csproj", "{3B3FD9D6-E15B-4781-A928-A932AAB3EE0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
