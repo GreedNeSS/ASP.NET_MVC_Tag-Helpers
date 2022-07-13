@@ -1,0 +1,17 @@
+﻿<link rel="stylesheet" asp-href-include="~/css/**/*.css" asp-href-exclude="~/css/bootstrap/*.css" asp-append-version="true"/>
+<link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/4.3.0/css/bootstrap.min.css"
+      asp-fallback-href="~/css/bootstrap/Bootstrap.css"
+      asp-fallback-test-class="hidden" asp-fallback-test-property="visibility" asp-fallback-test-value="hidden" />
+
+
+<h2>Scripts and Links</h2>
+<p>Hello</p>
+
+<script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+        asp-fallback-src="~/Js/JQuery/JQuery.js"
+        asp-fallback-test="window.jQuery"
+        crossorigin="anonymous">
+</script>
+
+<!-- <script asp-src-include="~/Js/**/*.js"></script> -->
+<script asp-src-include="~/Js/**/*.js" asp-src-exclude="/Js/Home/*.js" asp-append-version="true"></script>
