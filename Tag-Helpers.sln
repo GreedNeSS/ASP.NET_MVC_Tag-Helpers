@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1-Introduction", "1-Introdu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2-Anchor", "Anchor\2-Anchor.csproj", "{3B3FD9D6-E15B-4781-A928-A932AAB3EE0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-Script_Link", "3-Script_Link\3-Script_Link.csproj", "{956C1A37-2E57-4C1A-B28E-426F6F5B5DC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3B3FD9D6-E15B-4781-A928-A932AAB3EE0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B3FD9D6-E15B-4781-A928-A932AAB3EE0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B3FD9D6-E15B-4781-A928-A932AAB3EE0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{956C1A37-2E57-4C1A-B28E-426F6F5B5DC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{956C1A37-2E57-4C1A-B28E-426F6F5B5DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{956C1A37-2E57-4C1A-B28E-426F6F5B5DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{956C1A37-2E57-4C1A-B28E-426F6F5B5DC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
