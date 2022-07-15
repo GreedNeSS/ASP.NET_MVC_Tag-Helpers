@@ -1,0 +1,23 @@
+﻿@model _4_Form.Models.Product
+
+<h2>Добавление нового товара:</h2>
+
+<form asp-action="Index" asp-controller="Home" asp-antiforgery=true>
+    <div>
+        <p>
+            <label asp-for="Name">Введите название товара: </label>
+            <input asp-for="Name" type="text" />
+        </p>
+        <p>
+            <label asp-for="Price">Введите стоимость товара: </label>
+            <input asp-for="Price" type="number" />
+        </p>
+        <p>
+            <label asp-for="CompanyId">Выберите фирму товара: </label>
+            <select asp-for="CompanyId" asp-items="ViewBag.Companies">
+                <option selected="selected" disabled="disabled">Выберите компанию</option>
+            </select>
+        </p>
+        <button>Отправить</button>
+    </div>
+</form>

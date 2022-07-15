@@ -1,0 +1,14 @@
+﻿@using _4_Form.Models
+@model _4_Form.Models.DayTimeModel
+
+<h2>Выберите время суток: </h2>
+<form asp-action="Enum" asp-controller="Home">
+    <div>
+        <p>
+            <label asp-for="Period">Время суток: </label>
+            <select asp-for="Period" asp-items="Html.GetEnumSelectList<DayTime>()"></select>
+            <!-- <select asp-for="Period" asp-items="new SelectList(Enum.GetNames(typeof(DayTime)))"></select> -->
+        </p>
+        <button>Отправить</button>
+    </div>
+</form>
