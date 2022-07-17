@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3-Script_Link", "3-Script_L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4-Form", "4-Form\4-Form.csproj", "{11D2F375-F32F-4C0E-A727-C9F96E78385E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-Enviroment", "5-Enviroment\5-Enviroment.csproj", "{6FCAC448-7BC1-4734-80FF-5C789501971B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5-Enviroment", "5-Enviroment\5-Enviroment.csproj", "{6FCAC448-7BC1-4734-80FF-5C789501971B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-Cache", "6-Cache\6-Cache.csproj", "{CC954198-519F-4161-B41A-75B27169007A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{6FCAC448-7BC1-4734-80FF-5C789501971B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FCAC448-7BC1-4734-80FF-5C789501971B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FCAC448-7BC1-4734-80FF-5C789501971B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC954198-519F-4161-B41A-75B27169007A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC954198-519F-4161-B41A-75B27169007A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC954198-519F-4161-B41A-75B27169007A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC954198-519F-4161-B41A-75B27169007A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,24 @@
+﻿<p>
+    Date: @DateTime.Now.ToString("HH:mm:ss");
+</p>
+
+<cache expires-after="@TimeSpan.FromSeconds(10)">
+    <p>
+        cache expires-after<br />
+        Date: @DateTime.Now.ToString("HH:mm:ss");
+    </p>
+</cache>
+
+<cache expires-on="@DateTime.Now.AddDays(1)">
+    <p>
+        cache expires-on<br />
+        Date: @DateTime.Now.ToString("HH:mm:ss");
+    </p>
+</cache>
+
+<cache vary-by-route="id">
+    <p>
+        cache vary-by-route="id"<br />
+        Date: @DateTime.Now.ToString("HH:mm:ss");
+    </p>
+</cache>
