@@ -9,29 +9,11 @@ namespace _6_Cache.Controllers
             return View();
         }
 
-        public IActionResult Login()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult Login(string name)
-        {
-            Response.Cookies.Append("Name", name);
-
-            return RedirectToAction("Profile");
-        }
-
         public IActionResult Profile()
         {
             Console.WriteLine(Request.Cookies["Name"]);
+            Console.WriteLine(User.Identity.Name);
             return View();
-        }
-
-        public IActionResult Logout()
-        {
-            Response.Cookies.Delete("Name");
-            return RedirectToAction("Login");
         }
     }
 }

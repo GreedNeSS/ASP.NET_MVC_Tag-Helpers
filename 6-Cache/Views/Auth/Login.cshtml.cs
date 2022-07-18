@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace _6_Cache.Views.Home
+namespace _6_Cache.Views.Auth
 {
     public class LoginModel : PageModel
     {

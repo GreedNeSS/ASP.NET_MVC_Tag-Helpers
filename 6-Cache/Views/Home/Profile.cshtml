@@ -1,4 +1,9 @@
 ﻿<cache expires-after="@TimeSpan.FromDays(15)" vary-by-cookie="Name">  
-    Date: @DateTime.Now.ToString("HH:mm:ss");
+    <h2>vary-by-cookie="Name"</h2>
+    Date: @DateTime.Now.ToString("HH:mm:ss")
 </cache> <br />
-<button><a asp-action="Logout" >Logout</a></button>
+<cache expires-after="@TimeSpan.FromDays(15)" vary-by-user="true">  
+    <h2>vary-by-user="true"</h2>
+    Date: @DateTime.Now.ToString("HH:mm:ss")
+</cache> <br />
+<button><a asp-action="Logout" asp-controller="Auth" >Logout</a></button>
