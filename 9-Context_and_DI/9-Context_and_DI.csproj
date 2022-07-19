@@ -7,10 +7,4 @@
     <RootNamespace>_9_Context_and_DI</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Services\" />
-    <Folder Include="Views\Home\" />
-    <Folder Include="TagHelpers\" />
-  </ItemGroup>
-
 </Project>
