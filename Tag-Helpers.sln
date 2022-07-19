@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8-OutputControl", "8-Output
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9-Context_and_DI", "9-Context_and_DI\9-Context_and_DI.csproj", "{D51631F2-F371-40B0-B389-5E2752535589}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-HtmlTargetElement", "10-HtmlTargetElement\10-HtmlTargetElement.csproj", "{6A78FAAB-9734-4A41-A308-5343238C159D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10-HtmlTargetElement", "10-HtmlTargetElement\10-HtmlTargetElement.csproj", "{6A78FAAB-9734-4A41-A308-5343238C159D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-Models", "11-Models\11-Models.csproj", "{BA529983-49D2-4897-B699-5AF186AB4640}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{6A78FAAB-9734-4A41-A308-5343238C159D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A78FAAB-9734-4A41-A308-5343238C159D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A78FAAB-9734-4A41-A308-5343238C159D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA529983-49D2-4897-B699-5AF186AB4640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA529983-49D2-4897-B699-5AF186AB4640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA529983-49D2-4897-B699-5AF186AB4640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA529983-49D2-4897-B699-5AF186AB4640}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
